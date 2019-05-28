@@ -123,20 +123,20 @@ main {
     flex-direction: column;
 }
 .boxA {
-    background: url(./images/1.JPG) no-repeat center;
+    background: url(./images/1.jpg) no-repeat center;
     background-size: cover;
 
 }
 .boxB {
-    background: url(./images/2.JPG) no-repeat center;
+    background: url(./images/2.jpg) no-repeat center;
     background-size: cover;
 }
 .boxC {
-    background: url(./images/3.JPG) no-repeat center;
+    background: url(./images/3.jpg) no-repeat center;
     background-size: cover;
 }
 .boxD {
-    background: url(./images/4.JPG) no-repeat center;
+    background: url(./images/4.jpg) no-repeat center;
     background-size: cover;
 }
 
