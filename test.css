@@ -35,6 +35,34 @@ box-sizing: border-box;
     align-items: center;
 }
 
+.yellow {
+    color:#ffc052;
+}
+.red {
+    color:#ee6656;
+}
+.blue {
+    color: #5badc5;
+}
+.purple {
+    color:#b8a1cb;
+}
+.pink {
+    color: pink;
+}
+.yellowB {
+    background: #ffc052
+}
+.redB {
+    background:#ee6656;
+}
+.blueB {
+    background: #5badc5;
+}
+.purpleB {
+    background:#b8a1cb;
+}
+
 /* -------header---- */
 
 header {
@@ -98,7 +126,6 @@ main {
     height: 12%;
     width: 15%;
     border-radius: 20px;
-    background: yellow;
 }
 .mainBox h4 {
     line-height:2.5rem;
@@ -114,13 +141,18 @@ main {
     background: url(./images/5.png) no-repeat center;
     background-size: contain;
 }
-.centerBox .title {
-    padding-bottom:1.5rem; 
+
+.more {
+    font-size: .5rem;
+    flex-direction: column;
 }
+
 .boxCenter {
     width: 50%;
-    height:80%;
+    height:50%;
     flex-direction: column;
+    justify-content: space-between;
+
 }
 .boxA {
     background: url(./images/1.jpg) no-repeat center;
@@ -163,13 +195,18 @@ main {
         background-position: top;
         background-color: yellowgreen;
         font-size: 1.5rem;
+        align-items: flex-end;
     }
     .boxCenter{
         width: 80%;
-        justify-content: flex-end;
+        height: 50%;
+        
     }
     .centerBox h4 {
         font-size: 2rem;
+    }
+    .more {
+        font-size: 1.5rem;
     }
 }
 /* ---------footer------------- */
